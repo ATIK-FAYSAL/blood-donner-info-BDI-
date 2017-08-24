@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image1">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"/>
+
+    <EditText
+        android:id="@+id/e_name"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/user_icon"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" Name"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/e_email"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/email_icon"
+        android:layout_marginTop="11dp"
+        android:hint=" Email"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/e_name"
+        android:layout_alignLeft="@+id/e_name"
+        android:layout_alignStart="@+id/e_name" />
+
+    <EditText
+        android:id="@+id/e_phone"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/phone_icon"
+        android:hint=" Phone"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_below="@+id/e_email"
+        android:layout_alignLeft="@+id/e_email"
+        android:layout_alignStart="@+id/e_email" />
+
+    <EditText
+        android:id="@+id/e_address"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:textStyle="bold"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/address_icon"
+        android:ems="10"
+        android:hint=" Address"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/e_phone"
+        android:layout_alignLeft="@+id/e_phone"
+        android:layout_alignStart="@+id/e_phone" />
+
+    <Spinner
+        android:id="@+id/s_city"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/e_address"
+        android:layout_alignStart="@+id/e_address" />
+
+    <Spinner
+        android:id="@+id/s_blood_group"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:background="@drawable/round"
+        android:layout_alignTop="@+id/s_city"
+        android:layout_alignRight="@+id/e_address"
+        android:layout_alignEnd="@+id/e_address" />
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round"
+        android:layout_below="@+id/s_city"
+        android:layout_alignLeft="@+id/s_city"
+        android:layout_alignStart="@+id/s_city">
+
+        <RadioButton
+            android:id="@+id/R_male"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:text="@string/male"
+            android:onClick="select_gender"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/R_female"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.02"
+            android:text="@string/female"
+            android:onClick="select_gender"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/E_password"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:background="@drawable/round"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/lock_icon"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/facebook"
+        android:layout_alignLeft="@+id/facebook"
+        android:layout_alignStart="@+id/facebook" />
+
+    <EditText
+        android:id="@+id/E_confirmPassword"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/round"
+        android:hint=" Confirm Password"
+        android:ems="10"
+        android:drawableLeft="@drawable/lock_icon"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/E_password"
+        android:layout_alignLeft="@+id/E_password"
+        android:layout_alignStart="@+id/E_password" />
+
+    <EditText
+        android:id="@+id/facebook"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/gender"
+        android:layout_alignStart="@+id/gender"
+        android:background="#fff"
+        android:layout_below="@+id/gender"
+        android:layout_marginTop="11dp"
+        android:drawableLeft="@drawable/ic_facebook"
+        android:ems="10"
+        android:hint=" Facebook URL"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/update_icon"
+            android:title="Update Information" />
+        <item
+            android:id="@+id/setDate"
+            android:icon="@drawable/date_icon"
+            android:title="Last Donate Date" />
+        <item
+            android:id="@+id/Log_out"
+            android:icon="@drawable/logout_icon"
+            android:title="Sign out" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/change_password"
+                android:icon="@drawable/password_icon"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/delete_account"
+                android:icon="@drawable/delete_icon"
+                android:title="Delete Account" />
+            <item
+                android:id = "@+id/feedback"
+                android:icon="@drawable/feedback_icon"
+                android:title="Feedback"
+                />
+        </menu>
+    </item>
+
+</menu>

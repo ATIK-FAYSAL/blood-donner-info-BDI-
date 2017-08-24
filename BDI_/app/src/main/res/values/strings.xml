@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">BDI_</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+    <string-array name="city">
+        <item>Select City</item>
+        <item>DHAKA</item>
+        <item>FARIDPUR</item>
+        <item>GAZIPUR</item>
+        <item>GOPALGANJ</item>
+        <item>JAMALPUR</item>
+        <item>KISHOREGONJ</item>
+        <item>MADARIPUR</item>
+        <item>MANIKGANJ</item>
+        <item>MUNSHIGANJ</item>
+        <item>MYMENSINGH</item>
+        <item>NARAYANGANJ</item>
+        <item>NARSINGDI</item>
+        <item>NETRAKONA</item>
+        <item>RAJBARI</item>
+        <item>SHARIATPUR</item>
+        <item>SHERPUR</item>
+        <item>TANGAIL</item>
+        <item>BOGRA</item>
+        <item>CHAPAINABABGANJ</item>
+        <item>JOYPURHAT</item>
+        <item>PABNA</item>
+        <item>NAOGAON</item>
+        <item>NATORE</item>
+        <item>RAJSHAHI</item>
+        <item>SIRAJGANJ</item>
+        <item>HABIGANJ</item>
+        <item>MAULVIBAZAR</item>
+        <item>SUNAMGANJ</item>
+        <item>SYLHET</item>
+        <item>BAGERHAT</item>
+        <item>CHUADANGA</item>
+        <item>JESSORE</item>
+        <item>JHENAIDAH</item>
+        <item>KHULNA</item>
+        <item>KUSHTIA</item>
+        <item>MAGURA</item>
+        <item>MEHERPUR</item>
+        <item>NARAIL</item>
+        <item>SATKHIRA</item>
+        <item>BARGUNA</item>
+        <item>BARISAL</item>
+        <item>BHOLA</item>
+        <item>JHALOKATI</item>
+        <item>PATUAKHALI</item>
+        <item>PIROJPUR </item>
+        <item>BANDARBAN</item>
+        <item>BRAHMANBARIA</item>
+        <item>CHANDPUR</item>
+        <item>CHITTAGONG</item>
+        <item>COMILLA</item>
+        <item>FENI</item>
+        <item>COXBAZAR</item>
+        <item>KHAGRACHHARI</item>
+        <item>LAKSHMIPUR</item>
+        <item>NOAKHALI</item>
+        <item>RANGAMATI </item>
+        <item>DINAJPUR</item>
+        <item>GAIBANDHA</item>
+        <item>KURIGRAM,</item>
+        <item>LALMONIRHAT</item>
+        <item>NILPHAMARI</item>
+        <item>PANCHAGARH</item>
+        <item>RANGPUR</item>
+        <item>THAKURGAON</item>
+    </string-array>
+    <string-array name="blood_group">
+        <item>Select blood group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="date">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="month">
+        <item>Janu</item>
+        <item>Feb</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>July</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="year">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+        <item>2031</item>
+        <item>2032</item>
+        <item>2033</item>
+        <item>2034</item>
+        <item>2035</item>
+        <item>2036</item>
+        <item>2037</item>
+    </string-array>
+
+    <string name="title_activity_home_page">home_page</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

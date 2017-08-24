@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "264286713553",
+    "firebase_url": "https://blood-donner.firebaseio.com",
+    "project_id": "blood-donner",
+    "storage_bucket": "blood-donner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264286713553:android:c839a0b02e2a3d47",
+        "android_client_info": {
+          "package_name": "com.example.atik_faysal.bdi_"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264286713553-didaffcmhl24r1ibtruj3elligoccbdp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.atik_faysal.bdi_",
+            "certificate_hash": "295343547cea99bce8631ca790755908c5f9d7c9"
+          }
+        },
+        {
+          "client_id": "264286713553-jcdq5ntsg4rssegh740jjba69hsl5inb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgWnkRePOShggPoxlfAXXjhutByGWnhvE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264286713553-jcdq5ntsg4rssegh740jjba69hsl5inb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

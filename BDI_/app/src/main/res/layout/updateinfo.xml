@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"/>
+
+    <EditText
+        android:id="@+id/e_name"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/round_button"
+        android:drawableLeft="@drawable/user_icon"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp" />
+
+    <TextView
+        android:id="@+id/e_email"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/round_button"
+        android:drawableLeft="@drawable/email_icon"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/e_name"
+        android:layout_alignLeft="@+id/e_name"
+        android:layout_alignStart="@+id/e_name" />
+
+    <EditText
+        android:id="@+id/e_phone"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/e_email"
+        android:layout_alignStart="@+id/e_email"
+        android:layout_below="@+id/e_email"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/round_button"
+        android:drawableLeft="@drawable/phone_icon"
+        android:ems="10"
+        android:inputType="phone"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/e_address"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/round_button"
+        android:drawableLeft="@drawable/address_icon"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_below="@+id/e_phone"
+        android:layout_alignLeft="@+id/e_phone"
+        android:layout_alignStart="@+id/e_phone" />
+
+    <Spinner
+        android:id="@+id/s_city"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round_button"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/e_gender"
+        android:layout_alignLeft="@+id/e_gender"
+        android:layout_alignStart="@+id/e_gender" />
+
+    <TextView
+        android:id="@+id/e_blood_group"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/round_button"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/e_city"
+        android:layout_alignLeft="@+id/e_city"
+        android:layout_alignStart="@+id/e_city" />
+
+    <TextView
+        android:id="@+id/e_gender"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/round_button"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/e_blood_group"
+        android:layout_alignLeft="@+id/e_city"
+        android:layout_alignStart="@+id/e_city" />
+
+    <EditText
+        android:id="@+id/facebook"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/round_button"
+        android:drawableLeft="@drawable/ic_facebook"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/e_address"
+        android:layout_alignLeft="@+id/e_address"
+        android:layout_alignStart="@+id/e_address" />
+
+    <TextView
+        android:id="@+id/e_city"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:background="@drawable/round_button"
+        android:drawableLeft="@drawable/city_icon"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/facebook"
+        android:layout_alignLeft="@+id/facebook"
+        android:layout_alignStart="@+id/facebook" />
+
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"/>
+
+    <TextView
+        android:id="@+id/t_name"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:drawableLeft="@drawable/user_icon"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/t_phone"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/t_name"
+        android:layout_alignStart="@+id/t_name"
+        android:layout_below="@+id/t_name"
+        android:layout_marginTop="11dp"
+        android:drawableLeft="@drawable/phone_icon"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t_email"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/t_phone"
+        android:layout_alignStart="@+id/t_phone"
+        android:layout_below="@+id/t_phone"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/email_icon"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t_blood"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text=""
+        android:layout_below="@+id/facebook"
+        android:layout_alignLeft="@+id/facebook"
+        android:layout_alignStart="@+id/facebook"
+        android:layout_marginTop="10dp" />
+
+
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:text="make a phone call"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:onClick="makeAcall"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/email"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:text="Send Email"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:onClick="sendEmail"
+        android:textStyle="bold"
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_alignStart="@+id/phone" />
+
+
+    <TextView
+        android:id="@+id/facebook"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/t_email"
+        android:layout_alignStart="@+id/t_email"
+        android:layout_below="@+id/t_email"
+        android:layout_marginTop="11dp"
+        android:drawableLeft="@drawable/ic_facebook"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t_date"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_below="@+id/t_blood"
+        android:layout_alignLeft="@+id/t_blood"
+        android:layout_alignStart="@+id/t_blood" />
+
+    <TextView
+        android:id="@+id/t_city"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:drawableLeft="@drawable/city_icon"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text=""
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/t_date"
+        android:layout_alignLeft="@+id/t_date"
+        android:layout_alignStart="@+id/t_date" />
+
+
+</RelativeLayout>

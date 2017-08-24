@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"/>
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:text="এপস টি আমার কোন উপকারে আসছে না ।"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp" />
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="এপস টি ঠিকমতো কাজ করছে না । "
+        android:layout_marginTop="53dp"
+        android:layout_alignTop="@+id/check1"
+        android:layout_alignLeft="@+id/check1"
+        android:layout_alignStart="@+id/check1" />
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="আমি আগ্রোহী না । "
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/check2"
+        android:layout_alignLeft="@+id/check2"
+        android:layout_alignStart="@+id/check2" />
+
+    <CheckBox
+        android:id="@+id/check4"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="এপস টি আমার পছন্দ না ।"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/check3"
+        android:layout_alignLeft="@+id/check3"
+        android:layout_alignStart="@+id/check3" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="57dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:onClick="delete_account"
+        android:textStyle="bold"
+        android:background="@drawable/round_button"
+        android:text="DELETE"
+        android:layout_below="@+id/check4"
+        android:layout_alignLeft="@+id/check4"
+        android:layout_alignStart="@+id/check4" />
+
+
+</RelativeLayout>

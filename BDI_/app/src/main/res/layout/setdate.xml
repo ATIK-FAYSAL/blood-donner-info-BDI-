@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar"/>
+
+    <Spinner
+        android:id="@+id/date"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="66dp"
+        android:drawableRight="@drawable/down_icon"
+        android:layout_below="@+id/toolbar"
+        android:layout_toLeftOf="@+id/month"
+        android:layout_toStartOf="@+id/month"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <Spinner
+        android:id="@+id/month"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_button"
+        android:drawableRight="@drawable/down_icon"
+        android:layout_alignTop="@+id/date"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/year"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_button"
+        android:drawableRight="@drawable/down_icon"
+        android:layout_alignTop="@+id/month"
+        android:layout_toRightOf="@+id/month"
+        android:layout_toEndOf="@+id/month"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_button"
+        android:onClick="save_date"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="Save date"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="        DD                MM               YYYY"
+        android:layout_above="@+id/month"
+        android:layout_alignLeft="@+id/date"
+        android:layout_alignStart="@+id/date" />
+</RelativeLayout>
