@@ -1,4 +1,1 @@
-# blood-donner-info-BDI-
-this is an android application.we can find blood donner by using this app
-A blood donner can add his/her information by using this app.
-People can see blood donner information and contact with donner
+This is a blood donor finding  app. All user can published their urgency like Facebook and can search by a specific Blood group or location. When a new urgency is posted user get a notification. Also user can contact with any donor.
